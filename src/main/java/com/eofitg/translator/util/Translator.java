@@ -11,8 +11,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Translator {
-    private static String apiPrefix = "http://fanyi.youdao.com/translate?&doctype=json&type=AUTO&i=";
     private static URL init(String text) throws MalformedURLException {
+        String apiPrefix = "http://fanyi.youdao.com/translate?&doctype=json&type=AUTO&i=";
         return new URL(apiPrefix + text);
     }
     public static String get(String text) throws IOException {

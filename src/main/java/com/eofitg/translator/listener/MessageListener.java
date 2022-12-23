@@ -17,7 +17,6 @@ public class MessageListener implements Listener {
     public void onChat (AsyncPlayerChatEvent e) throws IOException {
         Set<Player> recipients = e.getRecipients();
         String message = e.getMessage();
-        String target = ConfigReader.getTarget();
         if(ConfigReader.getEnabled()) {
             for (Player player : recipients) {
                 player.sendMessage(ChatColor.GRAY + "[" + e.getPlayer().getName() + " : " + Translator.get(message) + "]");

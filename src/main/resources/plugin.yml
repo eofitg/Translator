@@ -1,0 +1,7 @@
+name: Translator
+version: '${project.version}'
+main: com.eofitg.translator.Translator
+api-version: 1.19
+authors: [ eofitg ]
+description: Translate player chat messages.
+website: https://github.com/eofitg/Translator

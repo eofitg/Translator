@@ -8,3 +8,8 @@
 
 ##### 插件只有 **`/transltoggle`** 一条指令,作用是切换翻译器的开关状态。
 
+## 使用的语言检测翻译接口：
+
+~~~
+http://fanyi.youdao.com/translate?&doctype=json&type=AUTO&i=
+~~~

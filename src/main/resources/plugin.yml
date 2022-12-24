@@ -5,3 +5,8 @@ api-version: 1.19
 authors: [ eofitg ]
 description: Translate player chat messages.
 website: https://github.com/eofitg/Translator
+
+commands:
+  transltoggle:
+    description: Toggle the translator.
+    usage: /<command>

@@ -1,6 +1,6 @@
 package com.eofitg.translator.listener;
 
-import com.eofitg.translator.ConfigReader;
+import com.eofitg.translator.config.ConfigReader;
 import com.eofitg.translator.util.Translator;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

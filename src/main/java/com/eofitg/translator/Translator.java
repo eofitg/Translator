@@ -22,6 +22,7 @@ public final class Translator extends JavaPlugin {
         instance = this;
         Bukkit.getPluginManager().registerEvents(new MessageListener(), this);
         Bukkit.getPluginManager().registerEvents(new PlayerListener(), this);
+        Bukkit.getPluginCommand("transltoggle").setExecutor(new CommandHandler());
     }
 
     @Override

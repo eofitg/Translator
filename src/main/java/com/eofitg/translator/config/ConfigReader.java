@@ -1,5 +1,6 @@
-package com.eofitg.translator;
+package com.eofitg.translator.config;
 
+import com.eofitg.translator.Translator;
 import org.bukkit.configuration.file.FileConfiguration;
 
 public class ConfigReader {
